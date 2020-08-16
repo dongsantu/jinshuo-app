@@ -52,6 +52,9 @@
 				//isload:false
 			}
 		},
+		onLoad() {
+			console.log("----");
+		},
 		props: {
 			beloading:{
 				type: Boolean

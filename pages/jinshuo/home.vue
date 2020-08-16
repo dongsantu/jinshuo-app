@@ -1,8 +1,6 @@
 <template>
 	<view class="warp">
-		
-			<spu-list :list="productList" :beloading="beloading"></spu-list>
-
+		<spu-list :list="spuList" :beloading="beloading"></spu-list>
 	</view>
 </template>
 
@@ -12,7 +10,7 @@
 	} from '@/http/jinshuo_gds'
 	import spuList from '@/components/spu-list'
 	export default {
-		comments:{spuList},
+		components:{spuList},
 		data() {
 			return {				
 				params:{
@@ -35,30 +33,24 @@
 				console.log('this.params.pageNum---',this.params.pageNum)
 				console.log('this.params.pageNum===1---',this.params.pageNum===1)
 				if(this.params.pageNum===1){
-					this.productList = [];
+					this.spuList = [];
 				}
-				console.log('this.productList0->',this.productList)
+				console.log('this.spuList>',this.spuList)
 				this.beloading = true;
-				this.params.shopId=this.$store.state.shopId;
+				//this.params.shopId=this.$store.state.shopId;
 				queryGdsSpuPage(this.params).then(data=>{
 					this.beloading = false;
 					console.log('data---',data)
 					if(data.data.retCode===0){
-						
-						let productList = data.data.result.list.map(item=>{
-							if(item.name.length>26){
-								item.sortName = item.name.substr(0,25)+'...'
-							}else{
-								item.sortName = item.name
-							}
-							return item
-						});
-						console.log('this.productList->',this.productList)
-						this.spuList = [...this.productList,...productList]
-						console.log('this.productList1->',this.productList)
+						console.log('data.data.retCode',data.data.retCode)
+						let spuList = data.data.result.list;
+						console.log('this.productList->',this.spuList)
+						this.spuList = [...this.spuList,...spuList]
+						console.log('this.spuList>',this.spuList)
 						this.pages = data.data.result.pages;
 						this.params.pageNum = data.data.result.pageNum;
 						console.log('data.data.result.pageNum',data.data.result.pageNum)
+						console.log('end ======= data.data.result.pageNum',data.data.result.pageNum)
 					}
 					//this.setHeight();
 				}).catch(e=>{
