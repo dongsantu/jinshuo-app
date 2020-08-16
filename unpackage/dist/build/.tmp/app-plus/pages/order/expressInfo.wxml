@@ -1,0 +1,1 @@
+<view class="b-c-w data-v-2376f20e"><block wx:if="{{expressObj.Traces&&expressObj.Traces.length>0}}"><view class="data-v-2376f20e"><uni-steps vue-id="1" options="{{expressObj.Traces}}" direction="column" active="{{expressObj.Traces.length-1}}" class="data-v-2376f20e" bind:__l="__l"></uni-steps></view></block></view>

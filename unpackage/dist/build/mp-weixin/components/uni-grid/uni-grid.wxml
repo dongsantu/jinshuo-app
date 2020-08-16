@@ -1,0 +1,1 @@
+<view class="data-v-857c16bc"><view class="{{['uni-grid data-v-857c16bc',(showBorder)?'border':'']}}" style="{{'border-left:'+(showBorder?'1px '+borderColor+' solid':'none')+';'}}" id="{{elId}}"><slot></slot></view></view>

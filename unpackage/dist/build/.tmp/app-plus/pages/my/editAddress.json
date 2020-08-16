@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "地址信息",
+  "usingComponents": {
+    "lotus-address": "/components/Winglau14-lotusAddress/Winglau14-lotusAddress"
+  }
+}

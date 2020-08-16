@@ -1,0 +1,1 @@
+<view class="b-c-w"><product-list vue-id="1" list="{{productList}}" beloading="{{beloading}}" bind:__l="__l"></product-list></view>

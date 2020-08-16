@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "佣金明细",
+  "usingComponents": {
+    "empty": "/components/empty",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "loading": "/components/loading2"
+  }
+}

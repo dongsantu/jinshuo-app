@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "麦客权益",
+  "usingComponents": {
+    "footer-menu": "/components/footer"
+  }
+}

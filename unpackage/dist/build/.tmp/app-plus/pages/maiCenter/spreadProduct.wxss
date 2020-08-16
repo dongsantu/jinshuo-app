@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.copy-btn.data-v-33076789 {
+  width: 145rpx;
+  border-radius: 10rpx;
+  background-color: #f60837;
+  color: #fff;
+  font-size: 26rpx;
+  padding: 10rpx;
+  text-align: center;
+  margin: 10rpx auto;
+}
+.uni-popup__wrapper-box.data-v-33076789 {
+  overflow: visible;
+}
+.img-box2.data-v-33076789 {
+  margin-top: 20rpx;
+  width: 700rpx;
+  height: 200rpx;
+  background: url(data:image/png;base64,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) no-repeat right top;
+  background-size: 168rpx;
+}
+uni-image.data-v-33076789 {
+  height: auto;
+}
+uni-image ._div.data-v-33076789 {
+    height: auto;
+}
+uni-image ._img.data-v-33076789 {
+    position: relative;
+    height: auto;
+}
+.share-img.data-v-33076789 {
+  width: 100%;
+}
+.menu-icon.data-v-33076789 {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+  margin: 0 auto;
+}
+.bottom-box.data-v-33076789 {
+  box-sizing: border-box;
+  padding: 20rpx;
+  margin-bottom: 0;
+  background-color: #fff;
+  width: 100%;
+}
+.img-box.data-v-33076789 {
+  width: 500rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+}
+.close.data-v-33076789 {
+  width: 60rpx;
+  height: 60rpx;
+  font-size: 60rpx;
+  color: #fff;
+  margin: 0 auto;
+}
+.list.data-v-33076789 {
+  padding: 30rpx;
+}
+.li-item.data-v-33076789 {
+  padding-left: 270rpx;
+  padding-bottom: 20rpx;
+  margin-bottom: 30rpx;
+  position: relative;
+  background-color: #fff;
+  height: 250rpx;
+}
+.li-item .img.data-v-33076789 {
+    width: 250rpx;
+    height: 250rpx;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.li-item .img .img-img.data-v-33076789 {
+      width: 250rpx;
+      height: 250rpx;
+      border-radius: 15rpx;
+}
+.li-item .img .endTime.data-v-33076789 {
+      height: 70rpx;
+      line-height: 70rpx;
+      background-color: rgba(10, 10, 10, 0.3);
+      color: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 0 10rpx;
+      box-sizing: border-box;
+      border-radius: 0 0 0 15rpx;
+}
+.li-item .img .endTime .day-tag.data-v-33076789 {
+        border-radius: 10rpx;
+        background-color: #fff;
+        display: inline-block;
+        color: #333;
+        width: 44rpx;
+        height: 40rpx;
+        line-height: 40rpx;
+        text-align: center;
+        margin: 0 6rpx;
+}
+.li-item .content .title.data-v-33076789 {
+    font-weight: bold;
+    font-size: 32rpx;
+    height: 80rpx;
+}
+.li-item .content .discountPrice.data-v-33076789 {
+    font-size: 30rpx;
+    color: #f60837;
+    font-weight: bold;
+}
+.li-item .content .price.data-v-33076789 {
+    font-size: 24rpx;
+}
+.li-item .content .discount-tag.data-v-33076789 {
+    display: inline-block;
+    font-size: 24rpx;
+}
+.li-item .content .address.data-v-33076789 {
+    font-size: 22rpx;
+    width: 240rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.tag1.data-v-33076789 {
+  display: inline-block;
+  border-radius: 16rpx;
+  font-size: 24rpx;
+  color: #f60837;
+  background-color: lightgoldenrodyellow;
+  padding: 0 10rpx;
+}
+.buy-btn.data-v-33076789 {
+  padding: 0 25rpx;
+  line-height: 50rpx;
+  display: inline-block;
+  background-color: #f60837;
+  color: #fff;
+  text-align: center;
+  border-radius: 8rpx;
+}
+.earn-btn.data-v-33076789 {
+  padding: 0 25rpx;
+  line-height: 50rpx;
+  display: inline-block;
+  background-color: #f60837;
+  color: #fff;
+  text-align: center;
+  border-radius: 25rpx;
+}
+

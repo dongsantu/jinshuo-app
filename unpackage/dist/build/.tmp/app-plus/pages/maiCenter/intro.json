@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "如何成为麦客",
+  "usingComponents": {
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "footer-menu": "/components/footer",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

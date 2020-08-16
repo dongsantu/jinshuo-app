@@ -1,0 +1,1 @@
+<view class="{{['empty-box data-v-4e63dd1f','empty-box'+eType]}}"><view class="text data-v-4e63dd1f">{{eText}}</view></view>

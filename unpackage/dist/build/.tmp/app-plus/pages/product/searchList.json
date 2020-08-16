@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "搜索列表",
+  "usingComponents": {
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "product-list": "/components/product-list"
+  }
+}

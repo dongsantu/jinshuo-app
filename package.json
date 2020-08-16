@@ -1,0 +1,29 @@
+{
+  "name": "亿麦周边游",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "haoshenpei",
+  "license": "ISC",
+  "dependencies": {
+    "query-string": "^6.8.2",
+    "weixin-js-sdk": "^1.4.0-test"
+  },
+  "uni-app": {
+	  "scripts": {
+		  "custom-platform": {
+			  "title":"测试环境",
+			  "BROWSER":"Chrome",
+			  "env": {
+				  "UNI_PLATFORM": "h5"
+			   },
+			  "define": {
+				  "TEST": true
+			  }
+		  }
+	  }    
+    }
+}

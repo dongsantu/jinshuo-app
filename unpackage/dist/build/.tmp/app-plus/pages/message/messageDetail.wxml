@@ -1,0 +1,1 @@
+<view><view class="text-c font-32 l-h80">{{message.title}}</view><view class="text-c f-c-g2 font-24">{{message.time}}</view><view class="pad_lr10 pad_t15 t-b">{{''+message.content+''}}</view></view>

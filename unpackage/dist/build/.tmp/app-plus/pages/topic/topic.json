@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "专题活动",
+  "usingComponents": {
+    "product-list": "/components/product-list2"
+  }
+}

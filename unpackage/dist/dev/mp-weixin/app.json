@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/order/expressInfo",
+    "pages/my/setCountInfo",
+    "pages/integral/integralDesc",
+    "pages/maiCenter/rights",
+    "pages/integral/integralShop",
+    "pages/integral/integralDetail",
+    "pages/maiCenter/intro",
+    "pages/maiCenter/myTeam",
+    "pages/maiCenter/spreadProduct",
+    "pages/maiCenter/distributionOrder",
+    "pages/maiCenter/myCustomer",
+    "pages/maiCenter/withdrawLog",
+    "pages/maiCenter/commissionLog",
+    "pages/maiCenter/withdrawApply",
+    "pages/maiCenter/withdraw",
+    "pages/maiCenter/center",
+    "pages/product/search",
+    "pages/product/searchList",
+    "pages/coupon/center",
+    "pages/coupon/chooseCoupon",
+    "pages/coupon/couponList",
+    "pages/coupon/couponDetail",
+    "pages/my/collectList",
+    "pages/my/addressList",
+    "pages/my/editAddress",
+    "pages/message/messageCenter",
+    "pages/message/messageList",
+    "pages/message/messageDetail",
+    "pages/my/myInfo",
+    "pages/order/list",
+    "pages/order/detail",
+    "pages/product/order",
+    "pages/product/paySuccess",
+    "pages/product/detail",
+    "pages/product/list",
+    "pages/my/my",
+    "pages/information/information",
+    "pages/topic/topic"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "Hello uniapp",
+    "navigationBarBackgroundColor": "#f60837",
+    "backgroundColor": "#F8F8F8",
+    "backgroundColorTop": "#FFFFFF",
+    "backgroundColorBottom": "#FFFFFF"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取位置"
+    }
+  },
+  "usingComponents": {
+    "empty": "/components/empty"
+  }
+}

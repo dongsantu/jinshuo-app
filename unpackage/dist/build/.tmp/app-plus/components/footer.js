@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/footer"],{"87f4":function(t,e,o){"use strict";var n,c=function(){var t=this,e=t.$createElement;t._self._c},r=[];o.d(e,"b",function(){return c}),o.d(e,"c",function(){return r}),o.d(e,"a",function(){return n})},"8cd5":function(t,e,o){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var o={methods:{matchUrl:function(){var e=getCurrentPages();this.selected=e[e.length-1].route,console.log(t("selected",this.selected," at components\\footer.vue:64"))}},data:function(){return{selected:""}},computed:{isDis:function(){return this.$store.state.login&&this.$store.state.login.user&&this.$store.state.login.user.member?this.$store.state.login.user.member.isDis:""}},onLoad:function(){console.log(t("load"," at components\\footer.vue:82")),this.matchUrl()},onShow:function(){console.log(t("show"," at components\\footer.vue:86")),this.matchUrl()},onReady:function(){console.log(t("ready"," at components\\footer.vue:91")),this.matchUrl()},created:function(){console.log(t("created"," at components\\footer.vue:95")),this.matchUrl()}};e.default=o}).call(this,o("0de9")["default"])},"9e45":function(t,e,o){"use strict";o.r(e);var n=o("87f4"),c=o("aa30");for(var r in c)"default"!==r&&function(t){o.d(e,t,function(){return c[t]})}(r);o("c90a");var a,s=o("f0c5"),u=Object(s["a"])(c["default"],n["b"],n["c"],!1,null,"6e5b9c11",null,!1,n["a"],a);e["default"]=u.exports},aa30:function(t,e,o){"use strict";o.r(e);var n=o("8cd5"),c=o.n(n);for(var r in n)"default"!==r&&function(t){o.d(e,t,function(){return n[t]})}(r);e["default"]=c.a},add1:function(t,e,o){},c90a:function(t,e,o){"use strict";var n=o("add1"),c=o.n(n);c.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/footer-create-component',
+    {
+        'components/footer-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('6e42')['createComponent'](__webpack_require__("9e45"))
+        })
+    },
+    [['components/footer-create-component']]
+]);

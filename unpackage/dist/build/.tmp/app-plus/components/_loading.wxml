@@ -1,0 +1,1 @@
+<block wx:if="{{fetchLoading}}"><view class="wrap data-v-cd9e0918"><view class="spinner data-v-cd9e0918"><view class="double-bounce1 data-v-cd9e0918"></view><view class="double-bounce2 data-v-cd9e0918"></view></view><view class="load-tips data-v-cd9e0918">加载中...</view></view></block>

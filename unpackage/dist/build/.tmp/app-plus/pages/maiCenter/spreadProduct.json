@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "推广商品",
+  "usingComponents": {
+    "empty": "/components/empty",
+    "loading": "/components/loading2",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

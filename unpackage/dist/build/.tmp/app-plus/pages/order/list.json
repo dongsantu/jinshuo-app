@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "订单列表",
+  "usingComponents": {
+    "empty": "/components/empty",
+    "footer-menu": "/components/footer",
+    "loading": "/components/loading2"
+  }
+}

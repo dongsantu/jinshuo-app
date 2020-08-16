@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "亿麦周边游",
+  "usingComponents": {
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "x-tab": "/components/xyz-tab/xyz-tab",
+    "product-list": "/components/product-list",
+    "footer-menu": "/components/footer",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode"
+  }
+}
