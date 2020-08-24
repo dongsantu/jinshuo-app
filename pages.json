@@ -404,6 +404,10 @@
             "path" : "components/spu-list",
             "style" : {}
         }
+        ,{
+            "path" : "pages/jinshuo/home",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTitleText": "Hello uniapp",
